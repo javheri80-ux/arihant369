@@ -1,16 +1,9 @@
 {
   "functions": {
-    "api/*.php": {
-      "runtime": "vercel-php@0.6.0"
+    "api/**/*.php": {
+      "runtime": "vercel-php@0.9.0"
     }
   },
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "/api/index.php",
-      "permanent": false
-    }
-  ],
   "rewrites": [
     {
       "source": "/admin",
@@ -30,7 +23,7 @@
     },
     {
       "source": "/((?!api|images|blog|.*\\.html$|.*\\.css$|.*\\.js$|.*\\.webp$|.*\\.png$|.*\\.jpg$|.*\\.ico$|robots\\.txt|sitemap\\.xml).*)",
-      "destination": "/api/index.php"
+      "destination": "/index.html"
     }
   ],
   "headers": [
