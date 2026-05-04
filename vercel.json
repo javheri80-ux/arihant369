@@ -1,0 +1,49 @@
+{
+  "functions": {
+    "api/*.php": {
+      "runtime": "vercel-php@0.7.2"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/api/index.php"
+    },
+    {
+      "source": "/index.php",
+      "destination": "/api/index.php"
+    },
+    {
+      "source": "/admin",
+      "destination": "/api/admin.php"
+    },
+    {
+      "source": "/contact",
+      "destination": "/api/contact.php"
+    },
+    {
+      "source": "/leads",
+      "destination": "/api/baba-leads.php"
+    },
+    {
+      "source": "/baba-leads.php",
+      "destination": "/api/baba-leads.php"
+    },
+    {
+      "source": "/((?!api|images|blog|.*\\.html$|.*\\.css$|.*\\.js$|.*\\.webp$|.*\\.png$|.*\\.jpg$|.*\\.ico$|robots\\.txt|sitemap\\.xml).*)",
+      "destination": "/api/index.php"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/images/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    }
+  ]
+}
+
+
+
+
