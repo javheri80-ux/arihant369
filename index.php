@@ -14,7 +14,7 @@ function get_val($key, $fallback = '')
 }
 ?>
 <!DOCTYPE html>
-<html lang="hi-IN">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -25,7 +25,7 @@ function get_val($key, $fallback = '')
     <!-- ================= UPDATED SEO META TAGS ================= -->
     <link rel="icon" href="images/favicon.webp" type="image/webp" sizes="16x16">
     <meta name="description"
-        content="Arihant City mein apna sapna ghar pao. Premium 2BHK, 3BHK flats, plots aur villas. World-class amenities, prime location. Arihant City se best deal pao aaj hi!" />
+        content="Find your dream home in Arihant City. Premium 2BHK, 3BHK flats, plots, and villas. World-class amenities, prime location. Get the best deal at Arihant City today!" />
     <meta name="keywords"
         content="Arihant City, Arihant City flats, Arihant City plots, Arihant City township, Arihant City 2BHK, Arihant City 3BHK, Arihant City price, Arihant City location" />
     <meta name="author" content="Arihant City" />
@@ -34,7 +34,7 @@ function get_val($key, $fallback = '')
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Arihant City – Premium Residential Township | Luxury Flats & Plots" />
     <meta property="og:description"
-        content="Arihant City mein apna sapna ghar pao. Premium 2BHK, 3BHK flats, plots aur villas. World-class amenities, prime location." />
+        content="Find your dream home in Arihant City. Premium 2BHK, 3BHK flats, plots, and villas. World-class amenities, prime location." />
     <meta property="og:url" content="https://www.arihantcity.site/" />
     <meta property="og:image" content="https://www.arihantcity.site/images/hero_banner_1776905712.webp" />
     <meta property="article:published_time" content="2026-04-17T09:05:09+05:30" />
@@ -42,7 +42,7 @@ function get_val($key, $fallback = '')
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Arihant City – Premium Residential Township | Luxury Flats & Plots" />
     <meta name="twitter:description"
-        content="Arihant City mein apna sapna ghar pao. Premium 2BHK, 3BHK flats, plots aur villas." />
+        content="Find your dream home in Arihant City. Premium 2BHK, 3BHK flats, plots, and villas." />
     <meta name="twitter:image" content="https://www.arihantcity.site/images/hero_banner_1776905712.webp" />
     <meta name="robots" content="index, follow" />
     <meta name="theme-color" content="#500115" />
@@ -709,15 +709,14 @@ function get_val($key, $fallback = '')
     <main>
         <h1 id="main-content" class="visually-hidden"
             style="position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0;">
-            Arihant City – Premium Residential Township Mein Aapka Naya Ghar</h1>
+            Your New Home in Arihant City – Premium Residential Township</h1>
         <img src="<?= get_val('hero_banner', 'images/hero_banner_1776905712.webp') ?>"
             alt="Arihant City township aerial view – premium residential project" class="hero" width="1200"
             height="600">
 
         <section id="overview" class="section-padding container text-center">
             <h2 class="section-title">Arihant City Floor Plans & Configurations</h2>
-            <p class="section-subtitle">Bhiwandi ki sabse best township mein luxury 1, 2 aur 3 BHK flats ki pricing
-                details.</p>
+            <p class="section-subtitle">Discover luxury 1, 2, and 3 BHK flats with world-class features in Bhiwandi's finest township.</p>
 
             <div class="table-wrapper">
                 <table>
@@ -733,19 +732,19 @@ function get_val($key, $fallback = '')
                         <tr>
                             <td>1 BHK Luxury</td>
                             <td><?= get_val('p_2bhk_area', '519 SqFt') ?></td>
-                            <td>₹35L - ₹45L*</td>
+                            <td><button class="btn price-btn" style="margin-top:0; padding: 5px 15px;">Price on Request</button></td>
                             <td>Available</td>
                         </tr>
                         <tr>
                             <td>2 BHK Elite</td>
                             <td><?= get_val('p_3bhk_area', '760 SqFt') ?></td>
-                            <td>₹45L - ₹65L*</td>
+                            <td><button class="btn price-btn" style="margin-top:0; padding: 5px 15px;">Price on Request</button></td>
                             <td>Available</td>
                         </tr>
                         <tr>
                             <td>3 BHK Premium</td>
                             <td><?= get_val('p_4bhk_area', '1100 SqFt') ?></td>
-                            <td>₹70L - ₹95L*</td>
+                            <td><button class="btn price-btn" style="margin-top:0; padding: 5px 15px;">Price on Request</button></td>
                             <td>Limited</td>
                         </tr>
                     </tbody>
@@ -758,17 +757,10 @@ function get_val($key, $fallback = '')
 
         <section class="section-padding" style="background-color: var(--light-green);">
             <div class="container text-center">
-                <h2 class="section-title">Aapko Arihant City Kyun Select Karna Chahiye?</h2>
+                <h2 class="section-title">Why Choose Arihant City?</h2>
                 <div style="text-align: justify; max-width: 900px; margin: 0 auto; margin-bottom: 30px;">
-                    <p>Yadi aap Kalyan aur Bhiwandi ke behtareen prime ilake mein ek aadarsh ashiyana talash rahe hain,
-                        toh <strong>Arihant City</strong> aapke sapno ko poora karne ka sahi sthan hai. Ek aisi
-                        world-class township jahan aadhunik suvidhayein aur prakriti dono ek hi jagah milti hain. Apne
-                        shandaar architecture aur highway connectivity ki wajah se yeh project logo ki pehli pasand ban
-                        chuka hai.</p>
-                    <p style="margin-top: 15px;">Puri tarah se MahaRERA approved hone ke karan yahan aapka investment
-                        bilkul surakshit hai. Is premium township mein bane 1BHK, 2BHK aur 3BHK apartments aapko ek
-                        ultra-luxury lifestyle dete hain. Arihant Group ke bharose ke saath yahan rehna ek royal
-                        experience hai.</p>
+                    <p>If you are looking for a perfect home in the prime area of Kalyan and Bhiwandi, <strong>Arihant City</strong> is the ideal destination to fulfill your dreams. A world-class township where modern amenities and nature coexist harmoniously. With its stunning architecture and excellent highway connectivity, this project has become the top choice for homebuyers.</p>
+                    <p style="margin-top: 15px;">Being a fully MahaRERA-approved project, your investment here is completely secure. The premium 1BHK, 2BHK, and 3BHK apartments in this township offer an ultra-luxury lifestyle. Backed by the trust of the Arihant Group, living here is truly a royal experience.</p>
                 </div>
                 <img src="<?= get_val('story_img', 'images/story_img_1776905960.webp') ?>"
                     alt="Arihant City Kalyan Bhiwandi Legacy and Developer Story"
@@ -779,8 +771,7 @@ function get_val($key, $fallback = '')
 
         <section id="amenities" class="section-padding container text-center">
             <h2 class="section-title">Exclusive Premium Amenities</h2>
-            <p class="section-subtitle">Apne aur apne parivaar ke liye world-class luxury suvidhaon ka anubhav karein.
-            </p>
+            <p class="section-subtitle">Experience world-class luxury amenities for you and your family.</p>
             <div class="grid-4x3">
                 <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">🏊</span>
                     <h3 style="font-size:1rem;margin-top:10px;">Swimming Pool</h3>
@@ -998,29 +989,26 @@ function get_val($key, $fallback = '')
                 <div class="faq-item">
                     <div class="faq-q"
                         onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block'">
-                        <span>Is township mein kya-kya suvidhayein milti hain?</span>
+                        <span>What amenities are available in this township?</span>
                         <span>▼</span>
                     </div>
-                    <div class="faq-a">Aapko yahan swimming pool, modern gym, bada clubhouse, garden, bachho ke khelne
-                        ki jagah aur 24x7 security jaisi sabhi premium amenities milengi.</div>
+                    <div class="faq-a">You will find all premium amenities here, including a swimming pool, modern gym, large clubhouse, garden, children's play area, and 24x7 security.</div>
                 </div>
                 <div class="faq-item">
                     <div class="faq-q"
                         onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block'">
-                        <span>Kya yeh project MahaRERA certified hai?</span>
+                        <span>Is this project MahaRERA certified?</span>
                         <span>▼</span>
                     </div>
-                    <div class="faq-a">Haan, yeh project poori tarah MahaRERA registered hai jisse aapka nivesh
-                        (investment) bilkul surakshit rehta hai.</div>
+                    <div class="faq-a">Yes, this project is fully MahaRERA registered, ensuring your investment is completely safe.</div>
                 </div>
                 <div class="faq-item">
                     <div class="faq-q"
                         onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block'">
-                        <span>Flat ki booking ka kya process hai?</span>
+                        <span>What is the process for booking a flat?</span>
                         <span>▼</span>
                     </div>
-                    <div class="faq-a">Booking ke liye aap is website par maujood form bhar sakte hain ya hamare sales
-                        office par direct visit kar sakte hain.</div>
+                    <div class="faq-a">For booking, you can fill out the form on this website or visit our sales office directly.</div>
                 </div>
             </div>
         </section>
@@ -1031,8 +1019,8 @@ function get_val($key, $fallback = '')
                     aria-label="Arihant City Location Map"></iframe>
             </div>
             <div class="form-container">
-                <h2 class="section-title">Apna Dream Flat Aaj Hi Book Karein</h2>
-                <p>Exclusive deals aur special offers paane ke liye abhi register karein.<br><br><span
+                <h2 class="section-title">Book Your Dream Flat Today</h2>
+                <p>Register now to receive exclusive deals and special offers.<br><br><span
                         style="font-size:0.85rem; font-weight:bold; color:var(--primary-maroon);">MahaRERA Approved
                         Project | Transparent & Secure Buying</span></p>
                 <form action="/contact" method="POST" id="contact-form" name="contactForm"
